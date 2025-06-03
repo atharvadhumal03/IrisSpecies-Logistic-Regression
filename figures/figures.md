@@ -16,5 +16,10 @@ This directory contains all visualizations generated from the Iris classificatio
 **Description**: 3x3 confusion matrix heatmap showing prediction results
 
 ### 3. classification_report.png 
-- **Description: showing model metrics:
-- 
+**Description: showing model metrics:
+- Precision
+- Recall
+- F1 Score
+- Macro Average
+- Weighted Average
+- Support
