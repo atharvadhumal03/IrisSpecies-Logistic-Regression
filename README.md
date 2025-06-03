@@ -12,6 +12,7 @@ This project uses logistic regression to classify iris flowers into three specie
 The project showcases fundamental machine learning concepts including data visualization, train-test splitting, model training, and comprehensive evaluation metrics.
 
 ## 🎯 Results Summary
+### Model Performance
 | Metric | Score |
 |----------|----------|
 | Test Accuracy    |  100%     |
@@ -24,3 +25,10 @@ The project showcases fundamental machine learning concepts including data visua
 | Iris-setosa | 1.00 | 1.00 | 1.00 | 9 |
 | Iris-versicolor | 1.00 | 1.00 | 1.00 | 12 |
 | Iris-virginica | 1.00 | 1.00 | 1.00 | 9 |
+
+### Confusion Matrix
+| Actual/Predicted | Setosa | Versicolor | Virginica |
+|------------------|---------|------------|-----------|
+| **Setosa** | 9 | 0 | 0 |
+| **Versicolor** | 0 | 12 | 0 |
+| **Virginica** | 0 | 0 | 9 |
