@@ -32,3 +32,54 @@ The project showcases fundamental machine learning concepts including data visua
 | **Setosa** | 9 | 0 | 0 |
 | **Versicolor** | 0 | 12 | 0 |
 | **Virginica** | 0 | 0 | 9 |
+
+## 🔍 Methodology
+1. Data Exploration and Visualization
+
+- Loaded the Iris dataset using pandas
+- Created scatter plots to visualize feature relationships using matplotlib and seaborn
+- Identified clear separability between species, especially for Setosa
+- Observed that petal measurements provide better class separation than sepal measurements
+
+2. Data Preprocessing
+
+Feature-target separation: Split dataframe into features (X) and target labels (y)
+Train-test split: 80-20 split resulting in:
+
+- Training set: 120 samples
+- Test set: 30 samples
+
+
+No scaling required: Logistic regression converged without feature scaling
+
+3. Model Development
+
+- Algorithm: Logistic Regression with default hyperparameters
+- Solver: 'lbfgs' (default)
+- Multi-class strategy: 'auto' (one-vs-rest)
+- Maximum iterations: 100 (sufficient for convergence)
+
+4. Model Evaluation
+Comprehensive evaluation using multiple metrics:
+
+- Confusion Matrix: Perfect diagonal matrix with no misclassifications
+- Classification Report: Precision, recall, and F1-score all equal to 1.0
+- Test Set Composition: 9 Setosa, 12 Versicolor, 9 Virginica samples
+
+
+
+## 📁 Dataset Information
+The Iris dataset is one of the most famous datasets in machine learning, introduced by statistician Ronald Fisher in 1936. It contains:
+
+- 150 samples total (50 samples per species)
+- 4 features (all measurements in centimeters)
+- 3 target classes (flower species)
+- No missing values
+- No duplicate values
+
+### Target Distribution
+
+Setosa: 50 samples (33.3%)
+Versicolor: 50 samples (33.3%)
+Virginica: 50 samples (33.3%)
+
