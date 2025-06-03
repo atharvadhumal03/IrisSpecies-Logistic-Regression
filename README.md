@@ -61,8 +61,35 @@ Comprehensive evaluation using multiple metrics:
 - Classification Report: Precision, recall, and F1-score all equal to 1.0
 - Test Set Composition: 9 Setosa, 12 Versicolor, 9 Virginica samples
 
+## 📈 Visualizations
+**1. Feature Relationships**
+Created scatter plots showing:
+- Sepal length vs Sepal width
+- Petal length vs Petal width
+Clear clustering of species, especially Setosa
 
+**2. Confusion Matrix**
+| Actual/Predicted | Setosa | Versicolor | Virginica |
+|------------------|---------|------------|-----------|
+| **Setosa** | 9 | 0 | 0 |
+| **Versicolor** | 0 | 12 | 0 |
+| **Virginica** | 0 | 0 | 9 |
 
+**3. Classification Report**
+| Species | Precision | Recall | F1-Score | Support |
+|---------|-----------|--------|----------|---------|
+| Iris-setosa | 1.00 | 1.00 | 1.00 | 9 |
+| Iris-versicolor | 1.00 | 1.00 | 1.00 | 12 |
+| Iris-virginica | 1.00 | 1.00 | 1.00 | 9 |
+
+## 🔑 Key Findings
+
+- _Perfect Separability:_ The Iris dataset's features are sufficiently distinct to allow perfect classification with a linear model
+- _Feature Importance_: Petal measurements (length and width) show clearer species separation than sepal measurements
+- _Model Simplicity:_ Logistic regression, despite being a simple linear model, achieves optimal performance on this dataset
+- _Setosa Distinctiveness:_ Iris Setosa is linearly separable from the other two species
+- _No Overfitting:_ Perfect test accuracy suggests the model generalizes well on this datase
+  
 ## 📁 Dataset Information
 The Iris dataset is one of the most famous datasets in machine learning, introduced by statistician Ronald Fisher in 1936. It contains:
 
