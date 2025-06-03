@@ -17,3 +17,10 @@ The project showcases fundamental machine learning concepts including data visua
 | Test Accuracy    |  100%     |
 | Test Total Samples    | 30     |
 | Misclassifications    | 0     |
+
+### Per-Class Performance
+| Species | Precision | Recall | F1-Score | Support |
+|---------|-----------|--------|----------|---------|
+| Iris-setosa | 1.00 | 1.00 | 1.00 | 9 |
+| Iris-versicolor | 1.00 | 1.00 | 1.00 | 12 |
+| Iris-virginica | 1.00 | 1.00 | 1.00 | 9 |
