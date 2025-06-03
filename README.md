@@ -4,10 +4,10 @@ A machine learning project implementing multiclass classification to identify ir
 ## 📊 Project Overview
 This project uses logistic regression to classify iris flowers into three species (Setosa, Versicolor, and Virginica) based on four physical features:
 
-Sepal length
-Sepal width
-Petal length
-Petal width
+1. Sepal length
+2. Sepal width
+3. Petal length
+4. Petal width
 
 The project showcases fundamental machine learning concepts including data visualization, train-test splitting, model training, and comprehensive evaluation metrics.
 
